@@ -1,0 +1,49 @@
+{
+    "layer": "top",
+    "modules-left": ["sway/workspaces", "mpris"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray", "pulseaudio", "backlight", "network"],
+    "height": 24,
+    "spacing": 8,
+    "fixed-center": true,
+
+    "sway/workspaces": {
+        "format": "{index}"
+    },
+    "mpris": {
+        "player": "playerctld",
+        "format": "MUS Playing",
+        "format-paused": "MUS Paused",
+        "ignored-players": ["firefox"]
+    },
+    "clock": {
+        "interval": 60,
+        "format": "{:%H:%M}",
+        "format-alt": "{:%A, %B %d, %Y (%R)}",
+	      "tooltip": false
+    },
+    "pulseaudio": {
+        "format": "VOL {volume}%",
+        "format-muted": "VOL X",
+        "scroll-step": 5,
+        "on-click": "foot -e pulsemixer",
+        "on-click-right": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    },
+    "backlight": {
+        "device": "radeon_bl0",
+        "format": "BRI {percent}%",
+        "tooltip": false,
+        "scroll-step": 10
+    },
+    "network": {
+        "format": "{ifname}",
+        "format-wifi": "NET {ifname}",
+        "format-ethernet": "NET {ifname}",
+        "format-disconnected": "NET X",
+        "tooltip-format": "{ifname}",
+        "tooltip-format-wifi": "wifi {essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "eth {ifname}",
+        "tooltip-format-disconnected": "Disconnected",
+        "max-length": 50
+    }
+}

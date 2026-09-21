@@ -1,0 +1,56 @@
+@define-color bg #1f1f28;
+@define-color fg #dcd7ba;
+@define-color accent #7e9cd8;
+
+* {
+    all: unset;
+    font-family: "Noto Sans Mono";
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+#waybar {
+    background: @bg;
+    color: @fg;
+}
+
+#workspaces button {
+    color: @fg;
+    padding: 0 8px;
+}
+
+#workspaces button.focused {
+    background: @accent;
+    color: @fg;
+}
+
+#workspaces button.urgent {
+    color: #e82424;
+}
+
+tooltip {
+    border: 2px solid @accent;
+    background: @bg;
+    color: @fg
+}
+
+tooltip label {
+    color: @fg;
+    padding: 8px;
+}
+
+menu {
+    background: @bg;
+    color: @fg;
+}
+
+menuitem {
+    background: @bg;
+    color: @fg;
+    padding: 8px;
+}
+
+menuitem:hover {
+    background: @accent;
+}
