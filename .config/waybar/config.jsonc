@@ -1,0 +1,52 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 28,
+    "modules-left": ["sway/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio", "backlight", "network", "sway/language", "tray"],
+    "spacing": 16,
+    "fixed-center": true,
+
+    "sway/workspaces": {
+        "format": "{index}"
+    },
+    "clock": {
+        "interval": 60,
+        "format": "󰥔 {:%a %d %b %H:%M}",
+	      "tooltip": false
+    },
+    "pulseaudio": {
+        "format": "󰕾 {volume}%",
+        "format-muted": "󰖁 Muted",
+        "scroll-step": 5,
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-click-right": "pavucontrol"
+    },
+    "backlight": {
+        "device": "radeon_bl0",
+        "format": "󰃠 {percent}%",
+        "tooltip": false,
+        "scroll-step": 5
+    },
+    "network": {
+        "format-wifi": "󰖩 {ifname}",
+        "format-ethernet": "󰈀 {ifname}",
+        "format-disconnected": "󰖪 Offline",
+        "format-disabled": "󰀝 Disabled",
+        "tooltip-format-wifi": "󰖩 {essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "󰈀 {ifname}",
+        "tooltip-format-disconnected": "󰖪 Offline",
+        "tooltip-format-disabled": "󰀝 Disabled",
+        "max-length": 50
+    },
+    "sway/language": {
+        "format": "󰌌 {short}",
+        "tooltip-format": "󰌌 {long}",
+        "on-click": "swaymsg input type:keyboard xkb_switch_layout next"
+    },
+    "tray": {
+        "icon-size": 16,
+        "spacing": 4
+    }
+}

@@ -1,0 +1,57 @@
+@define-color bg #16161d;
+@define-color fg #dcd7ba;
+@define-color accent #7e9cd8;
+
+* {
+    all: unset;
+    font-family: "JetBrainsMono Nerd Font Propo", monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#waybar {
+    background: @bg;
+    color: @fg;
+}
+
+.modules-right {
+    margin-right: 8px;
+}
+
+#workspaces button {
+    color: @fg;
+    margin: 0 8px;
+}
+
+#workspaces button.focused {
+    color: @accent;
+}
+
+#workspaces button.urgent {
+    color: #e82424;
+}
+
+tooltip {
+    border: 1px solid rgba(54, 54, 70, 0.8);
+    background: rgba(22, 22, 29, 0.8);
+}
+
+tooltip label {
+    color: @fg;
+    padding: 8px;
+}
+
+menu {
+    background: @bg;
+    color: @fg;
+}
+
+menuitem {
+    background: @bg;
+    color: @fg;
+    padding: 8px;
+}
+                     
+menuitem:hover {
+    background: #2a2a37;
+}
