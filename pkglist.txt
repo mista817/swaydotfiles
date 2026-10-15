@@ -18,7 +18,7 @@ curl-8.22.0_1
 dbus-1.16.2_2
 elogind-252.39_1
 exiftool-13.57_1
-fastfetch-2.68.1_1
+fastfetch-2.69.0_1
 firefox-esr-140.17.0_1
 fish-shell-4.9.3_1
 foot-1.28.0_1
@@ -33,15 +33,17 @@ imv-5.0.1_3
 inxi-3.3.40.1_1
 iwd-3.12_1
 kew-4.3.8_1
+kid3-3.10.0_1
 lsd-1.2.0_1
 mako-1.11.0_1
-mesa-26.2.4_1
-mesa-dri-26.2.4_1
-mesa-vaapi-26.2.4_1
+mesa-26.2.5_1
+mesa-dri-26.2.5_1
+mesa-vaapi-26.2.5_1
 mpv-0.41.0_3
+ncdu-1.22_1
 noto-fonts-cjk-1_1
 noto-fonts-emoji-2.051_2
-noto-fonts-ttf-2026.09.01_1
+noto-fonts-ttf-2026.10.01_1
 nwg-look-1.1.1_2
 papirus-icon-theme-20260801_1
 pavucontrol-6.2_1
@@ -55,7 +57,7 @@ starship-1.26.0_1
 sway-1.12_1
 swayidle-1.9.0_1
 swaylock-1.8.6_1
-telegram-desktop-7.0.4_3
+telegram-desktop-7.0.4_4
 thunar-archive-plugin-0.6.0_1
 tumbler-4.20.1_1
 wget-1.25.0_1
@@ -71,4 +73,3 @@ xfce-polkit-0.3_2
 xmirror-0.4.1_1
 xtools-0.70_1
 yazi-26.9.1_1
-yt-dlp-2026.08.19_1
