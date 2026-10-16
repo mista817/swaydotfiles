@@ -1,13 +1,15 @@
 max-history=5
 sort=-time
-on-button-right=dismiss-all
+on-button-left=invoke-default-action
+on-button-middle=dismiss-all
+on-button-right=dismiss
+on-touch=dismiss
 
 font=JetBrainsMono Nerd Font 12
 background-color=#16161d
 text-color=#dcd7ba
 width=300
 height=150
-outer-margin=0
 padding=12
 border-size=2
 border-color=#7e9cd8
