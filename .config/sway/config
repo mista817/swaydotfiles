@@ -246,7 +246,7 @@ for_window [shell="xwayland"] title_format "[XWayland] %title"
 client.focused          #a2b8e3 #7e9cd8 #1f1f28 #e6c384 #7e9cd8
 client.focused_inactive #7f7f9d #54546d #dcd7ba #54546d #54546d
 client.unfocused        #5d5d79 #2a2a37 #dcd7ba #2a2a37 #2a2a37
-client.urgent           #ef6464 #e82424 #1f1f28 #e82424 #e82424
+client.urgent           #d47779 #c34043 #1f1f28 #c34043 #c34043
 client.placeholder      #7f7f9d #54546d #dcd7ba #54546d #54546d
 
 #

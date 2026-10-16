@@ -28,7 +28,7 @@
 }
 
 #workspaces button.urgent {
-    color: #e82424;
+    color: #c34043;
 }
 
 #pulseaudio.muted {
@@ -40,12 +40,12 @@
 }
 
 #network.disabled {
-    color: #e82424;
+    color: #c34043;
 }
 
 tooltip {
-    border: 1px solid rgba(54, 54, 70, 0.8);
-    background: rgba(22, 22, 29, 0.8);
+    border: 1px solid rgba(54, 54, 70, 0.9);
+    background: rgba(22, 22, 29, 0.9);
 }
 
 tooltip label {
