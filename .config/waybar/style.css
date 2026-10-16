@@ -31,24 +31,8 @@
     color: #e82424;
 }
 
-#clock {
-    color: #98bb6c;
-}
-
-#pulseaudio {
-    color: #7e9cd8;
-}
-
 #pulseaudio.muted {
     color: #727169;
-}
-
-#backlight {
-    color: #e6c384;
-}
-
-#network {
-    color: #7aa89f;
 }
 
 #network.disconnected {
@@ -57,10 +41,6 @@
 
 #network.disabled {
     color: #e82424;
-}
-
-#language {
-    color: #7fb4ca;
 }
 
 tooltip {
