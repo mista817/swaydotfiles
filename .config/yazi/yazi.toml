@@ -4,7 +4,7 @@ show_symlink = true
 
 [opener]
 play = [
-	{ run = "mpv %s", orphan = true, for = "unix" },
+	{ run = "kew play %f", orphan = true, for = "unix" },
 ]
 edit = [
 	{ run = "hx %s", block = true, for = "unix" },

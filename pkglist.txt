@@ -11,6 +11,7 @@ bat-0.26.1_1
 brightnessctl-0.5.1_1
 bsdtar-3.8.9_1
 btop-1.4.7_1
+calcurse-4.8.2_1
 chrony-4.8_1
 cliphist-0.7.0_2
 curl-8.22.0_1
@@ -18,16 +19,19 @@ dbus-1.16.2_2
 elogind-252.39_1
 exiftool-13.57_1
 fastfetch-2.69.0_1
+fd-10.5.0_1
 firefox-esr-140.17.0_1
 fish-shell-4.9.3_1
 foot-1.28.0_1
 fuzzel-1.15.0_1
+fzf-0.74.5_1
 git-2.55.0_1
 grim-1.5.0_1
 grub-x86_64-efi-2.12_2
 gvfs-1.56.1_3
 gvfs-mtp-1.56.1_3
 helix-25.07.1_1
+htop-3.5.3_1
 imv-5.0.1_3
 inxi-3.3.40.1_1
 iwd-3.12_1
@@ -72,3 +76,4 @@ xfce-polkit-0.3_2
 xmirror-0.4.1_1
 xtools-0.70_1
 yazi-26.9.1_1
+yt-dlp-2026.08.19_1
