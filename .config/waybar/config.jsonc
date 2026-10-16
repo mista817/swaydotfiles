@@ -4,7 +4,7 @@
     "height": 28,
     "modules-left": ["sway/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "backlight", "network", "sway/language", "tray"],
+    "modules-right": ["pulseaudio", "backlight", "battery", "network", "sway/language", "tray"],
     "spacing": 16,
     "fixed-center": true,
 
@@ -34,7 +34,7 @@
         "scroll-step": 5
     },
     "battery": {
-        "bat": "BAT2",
+        "bat": "BAT0",
         "interval": 60,
         "format": "{icon} {capacity}%",
         "format-icons": {

@@ -1,6 +1,5 @@
 7zip-26.04_1
 ImageMagick-7.1.2.31_1
-MangoHud-0.8.4_1
 NetworkManager-1.56.0_1
 Thunar-4.20.10_1
 Waybar-0.15.0_4
