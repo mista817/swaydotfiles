@@ -17,8 +17,12 @@
         "tooltip": false
     },
     "pulseaudio": {
-        "format": "󰕾 {volume}%",
+        "format": "{icon} {volume}%",
         "format-muted": "󰖁 Muted",
+        "format-icons": {
+            "default": "󰕾",
+            "headphone": "󰋋"
+        },
         "scroll-step": 5,
         "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
         "on-click-right": "pavucontrol"
@@ -28,6 +32,15 @@
         "format": "󰃠 {percent}%",
         "tooltip": false,
         "scroll-step": 5
+    },
+    "battery": {
+        "bat": "BAT2",
+        "interval": 60,
+        "format": "{icon} {capacity}%",
+        "format-icons": {
+            "default": "",
+            "charging": "󱐋"
+        }
     },
     "network": {
         "format-wifi": "󰖩 {ifname}",
