@@ -2,7 +2,7 @@
     "layer": "top",
     "position": "top",
     "height": 28,
-    "modules-left": ["sway/workspaces"],
+    "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["clock"],
     "modules-right": ["pulseaudio", "backlight", "battery", "network", "sway/language", "tray"],
     "spacing": 16,
@@ -10,6 +10,9 @@
 
     "sway/workspaces": {
         "format": "{index}"
+    },
+    "sway/mode": {
+        "format": "{}"
     },
     "clock": {
         "interval": 60,
@@ -24,7 +27,7 @@
             "headphone": "󰋋"
         },
         "scroll-step": 5,
-        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-click": "wpctl set-mute @DEFAULT_SINK@ toggle",
         "on-click-right": "pavucontrol"
     },
     "backlight": {
