@@ -12,4 +12,3 @@ edit = [
 open = [
 	{ run = "xdg-open %s1", desc = "Open" },
 ]
-
