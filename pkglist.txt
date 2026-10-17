@@ -14,7 +14,6 @@ btop-1.4.7_1
 calcurse-4.8.2_1
 chrony-4.8_1
 cliphist-0.7.0_2
-curl-8.22.0_1
 dbus-1.16.2_2
 elogind-252.39_1
 exiftool-13.57_1
@@ -42,7 +41,7 @@ mako-1.11.0_1
 mesa-26.2.5_1
 mesa-dri-26.2.5_1
 mesa-vaapi-26.2.5_1
-mpv-0.41.0_3
+mpv-0.41.0_4
 ncdu-1.22_1
 noto-fonts-cjk-1_1
 noto-fonts-emoji-2.051_2
@@ -53,6 +52,7 @@ pavucontrol-6.2_1
 pipewire-1.6.9_1
 polkit-127_1
 qbittorrent-5.2.3_1
+ripgrep-15.2.0_1
 rtkit-0.14_1
 slurp-1.5.0_2
 socklog-void-20200115_2
