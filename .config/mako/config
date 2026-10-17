@@ -18,3 +18,11 @@ progress-color=over #7e9cd8ff
 icons=1
 max-icon-size=64
 default-timeout=10000
+
+[urgency=low]
+border-color=#727169
+default-timeout=5000
+
+[urgency=critical]
+border-color=#c34043
+default-timeout=0
