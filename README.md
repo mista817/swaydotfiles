@@ -24,11 +24,9 @@
 | Screenshots | `grim` + `slurp` |
 | Clipboard | `cliphist` + `wl-clipboard` |
 | Brightness | `brightnessctl` |
-| Audio | `pipewire` |
 | Shell | `fish` |
 | Editor | `helix` |
-| File managers | `yazi`, `Thunar` |
-| Media | `mpv`, `kew` |
+| File manager | `yazi` |
 
 ---
 
@@ -54,8 +52,7 @@
 
 ## Future plans
 
-- Create Telegram theme in Kanagawa palette
-- Create GTK theme in Kanagawa palette
+- Improve this readme, waybar & sway configs
 
 ---
 
