@@ -1,0 +1,45 @@
+@define-color bg #16161d;
+@define-color bga #2a2a37;
+@define-color fg #dcd7ba;
+@define-color accent #7e9cd8;
+
+* {
+    all: unset;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+window {
+	  background: rgba(0, 0, 0, 0.9);
+}
+
+button {
+    border: 2px solid @bg;
+	  background: @bg;
+    color: @fg;
+	  background-repeat: no-repeat;
+  	background-position: center 35%;
+	  background-size: 25%;
+	  margin: 2px;
+}
+
+button:focus, button:active, button:hover {
+    border: 2px solid @accent;
+    background-color: @bga;
+    color: @accent;
+}
+
+#lock { background-image: image(url("/home/mista/.config/wlogout/icons/lock.png")); }
+#hibernate { background-image: image(url("/home/mista/.config/wlogout/icons/hibernate.png")); }
+#logout { background-image: image(url("/home/mista/.config/wlogout/icons/logout.png")); }
+#shutdown { background-image: image(url("/home/mista/.config/wlogout/icons/shutdown.png")); }
+#suspend { background-image: image(url("/home/mista/.config/wlogout/icons/suspend.png")); }
+#reboot { background-image: image(url("/home/mista/.config/wlogout/icons/reboot.png")); }
+
+#lock:hover, #lock:focus { background-image: image(url("/home/mista/.config/wlogout/icons/lock-hover.png")); }
+#hibernate:hover, #hibernate:focus { background-image: image(url("/home/mista/.config/wlogout/icons/hibernate-hover.png")); }
+#logout:hover, #logout:focus { background-image: image(url("/home/mista/.config/wlogout/icons/logout-hover.png")); }
+#shutdown:hover, #shutdown:focus { background-image: image(url("/home/mista/.config/wlogout/icons/shutdown-hover.png")); }
+#suspend:hover, #suspend:focus { background-image: image(url("/home/mista/.config/wlogout/icons/suspend-hover.png")); }
+#reboot:hover, #reboot:focus { background-image: image(url("/home/mista/.config/wlogout/icons/reboot-hover.png")); }
