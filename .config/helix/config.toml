@@ -3,24 +3,29 @@ theme = "kanagawa"
 [editor]
 line-number = "relative"
 cursorline = true
+color-modes = true
 popup-border = "all"
 clipboard-provider = "wayland"
+end-of-line-diagnostics = "hint"
 
 [editor.statusline]
-left = ["mode", "file-name", "spinner", "file-modification-indicator"]
-center = ["diagnostics"]
-right = ["selections", "position", "file-encoding", "file-type"]
+left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator", "version-control"]
+center = ["diagnostics", "workspace-diagnostics"]
+right = ["selections", "position", "position-percentage", "file-encoding", "file-type"]
 separator = "|"
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
-diagnostics = ["warning", "error"]
-workspace-diagnostics = ["warning", "error"]
 
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "underline"
+
+[editor.indent-guides]
+render = true
+character = "|"
+skip-levels = 1
 
 [editor.file-picker]
 hidden = false
