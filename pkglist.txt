@@ -1,6 +1,6 @@
 7zip-26.04_1
 ImageMagick-7.1.2.31_1
-NetworkManager-1.56.0_1
+NetworkManager-1.58.1_1
 Thunar-4.20.10_1
 Waybar-0.15.0_4
 alsa-pipewire-1.6.9_1
@@ -34,7 +34,7 @@ imv-5.0.1_3
 inxi-3.3.40.1_1
 iwd-3.12_1
 kew-4.3.8_1
-lazygit-0.65.1_1
+lazygit-0.66.2_1
 lsd-1.2.0_1
 mako-1.11.0_1
 mesa-26.2.5_2
@@ -50,16 +50,18 @@ papirus-icon-theme-20260801_1
 pavucontrol-6.2_1
 pipewire-1.6.9_1
 polkit-127_1
-qbittorrent-5.2.3_1
 ripgrep-15.2.0_1
 rtkit-0.14_1
 slurp-1.5.0_2
+smartmontools-7.5_1
 socklog-void-20200115_2
 sway-1.12_1
 swayidle-1.9.0_1
 swaylock-1.8.6_1
 telegram-desktop-7.0.4_4
 thunar-archive-plugin-0.6.0_1
+tlp-1.10.2_1
+transmission-4.1.3_1
 tumbler-4.20.1_1
 wget-1.25.0_1
 wireless-regdb-2026.05.30_1
