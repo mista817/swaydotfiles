@@ -11,5 +11,7 @@ if status is-interactive
     alias cat="bat"
     alias i="sudo xbps-install -S"
     alias u="sudo xbps-install -Su"
+    alias r="sudo xbps-remove -R"
+    alias c="sudo xbps-remove -OO"
     alias s="sudo xbps-query -Rs"
 end
