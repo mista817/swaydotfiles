@@ -9,4 +9,7 @@ if status is-interactive
     alias ll="lsd -la"
     alias lt="lsd --tree"
     alias cat="bat"
+    alias i="sudo xbps-install -S"
+    alias u="sudo xbps-install -Su"
+    alias s="sudo xbps-query -Rs"
 end
