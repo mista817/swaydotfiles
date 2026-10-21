@@ -2,6 +2,7 @@
 @define-color bga #2a2a37;
 @define-color fg #dcd7ba;
 @define-color accent #7e9cd8;
+@define-color yellow #c0a36e;
 @define-color red #c34043;
 @define-color gray #727169;
 
@@ -34,8 +35,20 @@
     color: @red;
 }
 
+#mode {
+    color: @accent;
+}
+
 #pulseaudio.muted {
     color: @gray;
+}
+
+#battery.warning {
+    color: @yellow;
+}
+
+#battery.critical:not(.charging) {
+    color: @red;
 }
 
 #network.disconnected {
