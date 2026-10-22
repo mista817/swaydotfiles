@@ -5,8 +5,9 @@ if status is-interactive
     export EDITOR="hx"
 
     alias ls="lsd"
+    alias ll="lsd -l"
     alias la="lsd -a"
-    alias ll="lsd -la"
+    alias lla="lsd -la"
     alias lt="lsd --tree"
     alias cat="bat"
     alias i="sudo xbps-install -S"
@@ -14,4 +15,5 @@ if status is-interactive
     alias r="sudo xbps-remove -R"
     alias c="sudo xbps-remove -OO"
     alias s="sudo xbps-query -Rs"
+    alias tr="transmission-remote"
 end
