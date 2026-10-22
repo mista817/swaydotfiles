@@ -2,7 +2,8 @@
 @define-color bga #2a2a37;
 @define-color fg #dcd7ba;
 @define-color accent #7e9cd8;
-@define-color yellow #c0a36e;
+@define-color green #98bb6c;
+@define-color yellow #e6c384;
 @define-color red #c34043;
 @define-color gray #727169;
 
@@ -35,8 +36,12 @@
     color: @red;
 }
 
-#mode {
-    color: @accent;
+#mpris {
+    color: @green;
+}
+
+#mpris.paused {
+    color: @gray;
 }
 
 #pulseaudio.muted {
@@ -56,7 +61,7 @@
 }
 
 #network.disabled {
-    color: @red;
+    color: @accent;
 }
 
 tooltip {
@@ -75,8 +80,6 @@ menu {
 }
 
 menuitem {
-    background: @bg;
-    color: @fg;
     padding: 8px;
 }
                      
