@@ -48,7 +48,11 @@
     color: @gray;
 }
 
-#battery.warning {
+#battery.charging {
+    color: @green;
+}
+
+#battery.warning:not(.charging) {
     color: @yellow;
 }
 
