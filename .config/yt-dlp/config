@@ -3,4 +3,3 @@
 --embed-metadata
 --embed-thumbnail
 --output "$HOME/Videos/%(uploader)s/%(title)s.%(ext)s"
---cookies-from-browser "firefox"
