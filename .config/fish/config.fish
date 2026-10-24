@@ -15,5 +15,4 @@ if status is-interactive
     alias r="sudo xbps-remove -R"
     alias c="sudo xbps-remove -OO"
     alias s="sudo xbps-query -Rs"
-    alias tr="transmission-remote"
 end
