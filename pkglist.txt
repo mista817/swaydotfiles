@@ -14,6 +14,7 @@ btop-1.4.7_1
 calcurse-4.8.2_1
 chrony-4.8_1
 cliphist-0.7.0_2
+cpufetch-1.07_1
 dbus-1.16.2_2
 elogind-252.39_1
 exiftool-13.57_1
@@ -34,6 +35,7 @@ imv-5.0.1_3
 inxi-3.3.40.1_1
 iwd-3.12_1
 kew-4.3.8_1
+kid3-3.10.0_1
 lazygit-0.66.2_1
 lsd-1.2.0_1
 mako-1.11.0_1
@@ -42,6 +44,7 @@ mesa-dri-26.2.5_2
 mesa-vaapi-26.2.5_2
 mpv-0.41.0_4
 ncdu-1.22_1
+nicotine+-3.3.11_1
 noto-fonts-cjk-1_1
 noto-fonts-emoji-2.051_2
 noto-fonts-ttf-2026.10.01_1
@@ -55,6 +58,7 @@ rtkit-0.14_1
 slurp-1.5.0_2
 smartmontools-7.5_1
 socklog-void-20200115_2
+sox-14.4.2_11
 sway-1.12_1
 swayidle-1.9.0_1
 swaylock-1.8.6_1
@@ -62,7 +66,9 @@ telegram-desktop-7.0.4_4
 thunar-archive-plugin-0.6.0_1
 tlp-1.10.2_1
 transmission-4.1.3_1
+tty-clock-2.3_2
 tumbler-4.20.1_1
+wf-recorder-0.6.0_1
 wget-1.25.0_1
 wireless-regdb-2026.05.30_1
 wireplumber-0.5.18_1
