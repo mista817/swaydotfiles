@@ -51,7 +51,6 @@ input type:touchpad {
     tap enabled
     natural_scroll enabled
     middle_emulation enabled
-    click_method clickfinger
 }
 #
 input type:keyboard {
@@ -243,6 +242,7 @@ title_align center
 default_border pixel 2
 default_floating_border pixel 2
 for_window [shell="xwayland"] title_format "[XWayland] %title"
+seat * hide_cursor when-typing enable
 
 client.focused          #a2b8e3 #7e9cd8 #1f1f28 #e6c384 #7e9cd8
 client.focused_inactive #7f7f9d #54546d #dcd7ba #54546d #54546d
