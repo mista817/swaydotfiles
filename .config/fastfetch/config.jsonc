@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
   "logo": {
-    "type": "small",
-    "source": "",
+    "type": "builtin",
+    "source": "void2_small",
     "color": {
       "1": "",
       "2": "",
@@ -20,7 +20,7 @@
       "top": 0,
       "left": 0,
       "bottom": 0,
-      "right": 2
+      "right": 4
     },
     "printRemaining": true,
     "preserveAspectRatio": false,
@@ -40,10 +40,10 @@
     "hideCursor": false,
     "separator": ": ",
     "color": {
-      "keys": "blue",
-      "title": "green",
-      "output": "white",
-      "separator": "white"
+      "keys": "",
+      "title": "",
+      "output": "",
+      "separator": ""
     },
     "brightColor": true,
     "duration": {
@@ -148,6 +148,10 @@
       "keyIcon": ""
     },
     {
+      "type": "uptime",
+      "keyIcon": ""
+    },
+    {
       "type": "packages",
       "keyIcon": "󰏖",
       "disabled": [
@@ -158,10 +162,6 @@
     {
       "type": "shell",
       "keyIcon": ""
-    },
-    {
-      "type": "terminal",
-      "keyIcon": ""
     }
   ]
 }
