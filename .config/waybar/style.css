@@ -1,0 +1,92 @@
+@define-color bg #16161d;
+@define-color bga #2a2a37;
+@define-color fg #dcd7ba;
+@define-color accent #7e9cd8;
+@define-color green #98bb6c;
+@define-color yellow #e6c384;
+@define-color red #c34043;
+@define-color gray #727169;
+
+* {
+    all: unset;
+    font-family: "JetBrainsMono Nerd Font Propo", monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#waybar {
+    background: @bg;
+    color: @fg;
+}
+
+.modules-right {
+    margin-right: 8px;
+}
+
+#workspaces button {
+    color: @fg;
+    margin: 0 8px;
+}
+
+#workspaces button.focused {
+    color: @accent;
+}
+
+#workspaces button.urgent {
+    color: @red;
+}
+
+#mpris {
+    color: @green;
+}
+
+#mpris.paused {
+    color: @gray;
+}
+
+#pulseaudio.muted {
+    color: @gray;
+}
+
+#battery.charging {
+    color: @green;
+}
+
+#battery.warning:not(.charging) {
+    color: @yellow;
+}
+
+#battery.critical:not(.charging) {
+    color: @red;
+}
+
+#network.disconnected {
+    color: @gray;
+}
+
+#network.disabled {
+    color: @accent;
+}
+
+tooltip {
+    border: 1px solid rgba(54, 54, 70, 0.9);
+    background: rgba(22, 22, 29, 0.9);
+}
+
+tooltip label {
+    color: @fg;
+    padding: 8px;
+}
+
+menu {
+    background: @bg;
+    color: @fg;
+}
+
+menuitem {
+    padding: 8px;
+}
+                     
+menuitem:hover {
+    background: @bga;
+}

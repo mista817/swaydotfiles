@@ -1,0 +1,5 @@
+--format "bv[height<=1080][vcodec^=avc1][ext=mp4]+ba[ext=m4a]"
+--merge-output-format "mp4"
+--embed-metadata
+--embed-thumbnail
+--output "$HOME/Videos/%(uploader)s/%(title)s.%(ext)s"
