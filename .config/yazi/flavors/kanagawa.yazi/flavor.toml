@@ -26,14 +26,14 @@ active   = { fg = "#1f1f28", bg = "#7e9cd8" }
 inactive = { fg = "#7e9cd8", bg = "#2a2a37" }
 
 [mode]
-normal_main = { fg = "#1F1F28", bg = "#7E9CD8" }
-normal_alt  = { fg = "#7E9CD8", bg = "#2A2A37" }
+normal_main = { fg = "#1f1f28", bg = "#7e9cd8" }
+normal_alt  = { fg = "#7e9cd8", bg = "#2a2a37" }
 
-select_main = { fg = "#1F1F28", bg = "#957FB8" }
-select_alt  = { fg = "#957FB8", bg = "#2A2A37" }
+select_main = { fg = "#1f1f28", bg = "#957fb8" }
+select_alt  = { fg = "#957fb8", bg = "#2a2a37" }
 
-unset_main  = { fg = "#1F1F28", bg = "#E6C384" }
-unset_alt   = { fg = "#E6C384", bg = "#2A2A37" }
+unset_main  = { fg = "#1f1f28", bg = "#e6c384" }
+unset_alt   = { fg = "#e6c384", bg = "#2a2a37" }
 
 [indicator]
 parent  = { bg = "#2a2a37" }
