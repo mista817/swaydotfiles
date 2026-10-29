@@ -4,6 +4,7 @@
 
 <img src="assets/screenshot1.png" alt="Desktop screenshot" width="100%">
 <img src="assets/screenshot2.png" alt="Desktop screenshot" width="100%">
+<img src="assets/screenshot3.png" alt="Desktop screenshot" width="100%">
 
 ---
 
