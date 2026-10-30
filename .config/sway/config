@@ -243,7 +243,6 @@ title_align center
 default_border pixel 2
 default_floating_border pixel 2
 for_window [shell="xwayland"] title_format "[XWayland] %title"
-xwayland disable
 
 client.focused          #a2b8e3 #7e9cd8 #1f1f28 #e6c384 #7e9cd8
 client.focused_inactive #7f7f9d #54546d #dcd7ba #54546d #54546d
